@@ -1,0 +1,158 @@
+*{
+    color: antiquewhite;
+}
+h1{
+    font-family: 'Jura', sans-serif;
+    font-size: 60px;
+}
+
+
+p{
+    font-family: 'Jura', sans-serif;
+}
+
+
+h3 {
+    color: var(--cl);
+    font-family: 'Orbitron', sans-serif;
+}
+    
+body{background-color: black;
+    
+}
+
+/* navbar */
+i{
+    font-size:30px;
+}
+nav{
+    border-bottom: solid 2px white;
+}
+
+a{ 
+     font-family: 'Jura', sans-serif;
+ }
+li{
+        padding-left: 30px;
+    }
+
+/* header */
+header{
+   
+    
+    background-image: linear-gradient( to bottom, rgb(0, 0, 0), rgba(0, 0, 0, 0.701) ), url(/immagini/moon.jpg);;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100% ;
+    box-shadow: 3px;
+}
+
+/* section numerata */
+
+.linea{
+height: 2px;
+width: 90%;
+background-color:var(--cl)
+}
+
+.dodici{
+    color: rgb(250, 245, 245);
+    font-size: 50px;
+    
+}
+
+/* 5 articoli */
+.linea2{
+    height: 1px;
+width: 90%;
+background-color:var(--cl)
+}
+
+
+
+.space_between{
+    margin-top: 200px;
+}
+
+
+
+
+:root{
+    --cl: rgb(43,157,244);
+    --w: white;
+    --bl: black;
+}
+
+.cust-btn {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    width: 145px;
+    height: 45px;
+}
+.top-right {
+    height: 10px;
+    width: 10px;
+    border-color: var(--cl);
+    border-style: solid;
+    border-width: 3px 3px 0px 0px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.bot-left {
+    height: 10px;
+    width: 10px;
+    border-color: var(--cl);
+    border-style: solid;
+    border-width: 0px 0px 3px 3px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+.top-left {
+    height: 10px;
+    width: 10px;
+    border-color: var(--cl);
+    border-style: solid;
+    border-width: 3px 0px 0px 3px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.bot-right {
+    height: 10px;
+    width: 10px;
+    border-color: var(--cl);
+    border-style: solid;
+    border-width: 0px 3px 3px 0px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.earth-rise {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+    url(./immagini/sunrise-1765027_1920.jpg);
+    height: 100vh;
+    width: auto;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* footer */
+
+
+
+/* font-family: 'Jura', sans-serif;
+font-family: 'Orbitron', sans-serif; */
+
+/* Color: #2B9DF4 */
+ /* rgb(43,157,244) */
+ /*  */
+ /* <i class="fa-solid fa-moon"></i> */
